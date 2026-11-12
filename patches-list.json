@@ -1,5 +1,60 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "0.0.0",
-  "patches": []
+  "version": "1.0.0",
+  "patches": [
+    {
+      "name": "Center lock screen clock",
+      "description": "Anchors the lock screen clock to the horizontal center of the screen. Your vertical position is kept. Re-save the clock in LockStar after installing.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "com.samsung.systemui.lockstar",
+          "name": "LockStar",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#3E91FF",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "9.5.00.0",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Use default clock position",
+      "description": "Alternative to 'Center lock screen clock': makes SystemUI use its stock (centered) clock position. Your vertical position is not kept. Enable only one of the two.",
+      "default": false,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "com.samsung.systemui.lockstar",
+          "name": "LockStar",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#3E91FF",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "9.5.00.0",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    }
+  ]
 }
