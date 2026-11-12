@@ -1,18 +1,18 @@
-# 👋🧩 Morphe Patches template
+# LockStar Clock Patches
 
-Template repository for Morphe Patches.
+Morphe patches for Samsung Good Lock LockStar.
 
 ## ❓ About
 
-Patches for apps I like.
+Forces the LockStar lock screen clock to be horizontally centered (built against LockStar 9.5.00.0).
 
 <!-- TODO: Update this about section with a brief introduction/summary about this repo and what it offers. -->
 
 ### How to use these patches
 
-Click the button below, or manually add this repo url to Morphe Manager: https://github.com/xyz-user/xyz-patches
+Click the button below, or manually add this repo url to Morphe Manager: https://github.com/sebsebseb9b/lockstar-clock-patch
 
-<a href="https://morphe.software/add-source?github=xyz-user/xyz-patches">
+<a href="https://morphe.software/add-source?github=sebsebseb9b/lockstar-clock-patch">
   <img src=".github/assets/add-to-morphe.svg" alt="Add to Morphe" height="48">
 </a>
 

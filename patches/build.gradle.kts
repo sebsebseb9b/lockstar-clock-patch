@@ -1,12 +1,11 @@
 group = "app.template"
 
 patches {
-    // TODO: Update this section with your project details.
     about {
-        name = "UserXYZ Patches"
-        description = "Patches for apps I like"
-        source = "git@github.com:UserXYZ/morphe-patches.git"
-        author = "Awesome dev"
+        name = "LockStar Clock Patches"
+        description = "Centers the LockStar lock screen clock"
+        source = "git@github.com:sebsebseb9b/lockstar-clock-patch.git"
+        author = "sebsebseb9b"
         contact = "na"
         website = "na"
         license = "GPLv3"
